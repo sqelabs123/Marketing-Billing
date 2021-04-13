@@ -1,0 +1,7 @@
+Cat,TOU Name,Season,TimeBand,Effective From,Effective to,Start Time,End Time,Mon,Tues,Wed,Thur,Fri,Sat,Sun,Hol,Calendar
+U,Usage TOU Definition with peak7,WIN,P,01-Nov,31-Oct,09:00,18:00,X,X,X,X,X,X,X,,
+D,Demand TOU Definition with Peak7,WIN,P,01-Nov,31-Oct,09:00,18:00,X,X,X,X,X,X,X,X,1
+U,Usage TOU Definition with off_peak7,SUM,O,01-Nov,31-Oct,09:00,18:00,X,X,X,X,X,X,X,,
+D,Demand TOU Definition with Off_Peak7,SUM,O,01-Nov,31-Oct,09:00,18:00,X,X,X,X,X,X,X,X,1
+U,Usage TOU Definition With Shoulder7,ALL,S,01-Nov,31-Oct,09:00,18:00,X,X,X,X,X,X,X,,
+D,Demand TOU Definition with Shoulder7,ALL,S,01-Nov,31-Oct,09:00,18:00,X,X,X,X,X,X,X,X,1

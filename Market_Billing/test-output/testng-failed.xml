@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="password" value="C123456789@c"/>
+  <parameter name="userId" value="markettest777@yopmail.com"/>
+  <parameter name="url" value="https://markettest.utilibill.com.au/marketbilling/"/>
+  <test thread-count="5" name="billrun with import meter and meter register(failed)">
+    <classes>
+      <class name="Marketing_Project.billrun_with_Import_Meter_and_Meter_Register">
+        <methods>
+          <include name="Login"/>
+          <include name="Import_Meter_Number"/>
+        </methods>
+      </class> <!-- Marketing_Project.billrun_with_Import_Meter_and_Meter_Register -->
+    </classes>
+  </test> <!-- billrun with import meter and meter register(failed) -->
+</suite> <!-- Failed suite [Suite] -->
